@@ -1,7 +1,7 @@
 import random
 
 
-fout = open("/home/mars/source-code/duipai/data.txt", "w")
+fout = open("data.txt", "w")
 n = random.randint(1, 10000)
 m = random.randint(1, 10000)
 fout.write("%d %d\n" %(n, m))
